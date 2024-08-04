@@ -14,7 +14,7 @@ This application, built with Electron, Flask, and Selenium, is designed to strea
 
 ## Getting Started
 
-Welcome to Clinic-Source-Automation-App! This guide provides detailed steps to set up the environment and install this project on your local computer.
+Welcome to CSAP (clinic-source-automation-app)! This guide provides detailed steps to set up the environment and install this project on your local computer.
 
 ### Prerequisites
 
@@ -25,20 +25,21 @@ Before you begin, ensure you have the following installed:
 
 ### Installation
 
-Clone the repository > Clinic-Source-Automation-App
+Clone the repository > clinic-source-automation-app
 
   ```bash
-  git clone https://github.com/p-gatsby/Clinic-Source-Automation-App.git
+  git clone https://github.com/p-gatsby/clinic-source-automation-app.git
   ```
 
-Electron app installation ~ > Clinic-Source-Automation-App > Client
+Electron app installation ~ > clinic-source-automation-app > Client
 
 - Install node dependencies
+  
   ```sh
   npm install
   ```
 
-Flask server installation ~ > Clinic-Source-Automation-App > Server
+Flask server installation ~ > clinic-source-automation-app > Server
 
 - Install virtual environment:
 
@@ -62,12 +63,14 @@ Flask server installation ~ > Clinic-Source-Automation-App > Server
 
 ### Running the app
 
-- Run Flask Server ~ > Clinic-Source-Automation-App > Server
+- Run Flask Server ~ > clinic-source-automation-app > Server
+  
   ```sh
   flask --app app run
   ```
 
-- Run Electron App ~ > Clinic-Source-Automation-App > Client
+- Run Electron App ~ > clinic-source-automation-app > Client
+  
   ```sh
   npm start
   ```
